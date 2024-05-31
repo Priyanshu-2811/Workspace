@@ -1,0 +1,35 @@
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    margin:auto;
+    max-width: 960px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.left{
+    border-right: 1px solid gray;
+}
+.right{
+    margin-left:15px;
+}
+#gap{
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: #323330;
+}
+
+/* li{
+    display: inline;
+}
+li::before {
+    content: "★";
+} */
